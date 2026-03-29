@@ -1467,7 +1467,7 @@ function Dashboard() {
     <div style={{flex:1,display:"flex",flexDirection:"column",gap:16,overflowY:"auto"}}>
       <div>
         <h1 style={{fontSize:22,fontWeight:800,color:dark?"#f9fafb":"#111827",margin:0}}>👋 Welcome back, Vedika!</h1>
-        <p style={{fontSize:12,color:"#9ca3af",margin:"4px 0 0"}}>{new Date().toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})} · Today is {today}</p>
+        <p style={{fontSize:12,color:"#9ca3af",margin:"4px 0 0"}}>{new Date().toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})}</p>
       </div>
 
       <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(180px,1fr))",gap:10}}>
