@@ -573,7 +573,7 @@ function Sidebar() {
       <div style={{padding:"14px 20px",borderBottom:"1px solid",borderColor:state.dark?"#1f2937":"#fef3c7",display:"flex",alignItems:"center",gap:10}}>
         <div style={{width:40,height:40,borderRadius:"50%",background:"linear-gradient(135deg,#fcd34d,#f59e0b)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:20,border:"2px solid #fde68a"}}>👩‍🍳</div>
         <div>
-          <div style={{fontWeight:600,fontSize:13,color:state.dark?"#f9fafb":"#111827"}}>Hello, Sabrina</div>
+          <div style={{fontWeight:600,fontSize:13,color:state.dark?"#f9fafb":"#111827"}}>Hello, Vedika</div>
           <span style={{fontSize:10,background:"#fef3c7",color:"#d97706",padding:"2px 8px",borderRadius:99,fontWeight:600}}>Plan · Paid</span>
         </div>
       </div>
@@ -1466,7 +1466,7 @@ function Dashboard() {
   return (
     <div style={{flex:1,display:"flex",flexDirection:"column",gap:16,overflowY:"auto"}}>
       <div>
-        <h1 style={{fontSize:22,fontWeight:800,color:dark?"#f9fafb":"#111827",margin:0}}>👋 Welcome back, Sabrina!</h1>
+        <h1 style={{fontSize:22,fontWeight:800,color:dark?"#f9fafb":"#111827",margin:0}}>👋 Welcome back, Vedika!</h1>
         <p style={{fontSize:12,color:"#9ca3af",margin:"4px 0 0"}}>{new Date().toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})} · Today is {today}</p>
       </div>
 
